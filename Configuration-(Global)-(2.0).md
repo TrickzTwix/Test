@@ -2,21 +2,10 @@ This configuration file is stored on disk at `plugins/Factions/???`.
 
 source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/blob/master/src/com/massivecraft/factions/entity/MConf.java)
 
-| Test    | Table     | Blah |
+| Configuration name | Default value | Description |
 | ------- |:---------:| --- |
-| aaaa    |   bbbb    | c|
-|  factions | yay |
-{| class="wikitable"
-! test
-! Table
-|-
-| aaa
-| bbb
-|}
-
-Configuration fields:
- - taskPlayerPowerUpdateMinutes 
- - taskPlayerDataRemoveMinutes 
+| taskPlayerPowerUpdateMinutes 
+| taskPlayerDataRemoveMinutes 
  - taskEconLandRewardMinutes 
  - removePlayerDataWhenBanned 
  - removePlayerDataAfterInactiveDays 

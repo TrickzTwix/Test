@@ -13,12 +13,12 @@ source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/bl
 | radiusClaimRadiusLimit | 5 | Maximum radius when using radius claim. (Load = radius^2) | number |
 | chatSetFormat | false | Override chat format from other plugins? | true/false |
 | chatSetFormatAt | EventPriority.LOWEST | What EventPriority to set the chat format at. | [EventPriority](//link_goes_here) |
-| chatSetFormatTo | <{factions_relcolor}§l{factions_roleprefix }§r{factions_relcolor }{factions_name PIPE rp}§f%1$s> %2$s | What chat format to override to | string |
+| chatSetFormatTo | [see below](#chatsetformatto-default-value) | What chat format to override to | string |
 | chatParseTags | true | Parse tags in the chat format? | true/false |
 | chatParseTagsAt | EventPriority.LOW | What EventPriority to parse the tags at. | [EventPriority](//link_goes_here) |
 | herochatFactionName | "Faction" | HeroChat faction-only channel long name. | string |
 | herochatFactionNick | "F" | HeroChat faction-only channel short name. | string |
-| herochatFactionFormat | {color}[&l{nick}&r{color} &l{factions_roleprefix }&r{color}{factions_title PIPE rp}{sender}{color}] &f{msg} | What chat format too use for the faction-only channel. | string |
+| herochatFactionFormat | [see below](#herochatfactionformat-default-value) | What chat format too use for the faction-only channel. | string |
 | herochatFactionColor | ChatColor.GREEN | What color the faction-only channel should be. | [ChatColor](//link_goes_here) |
 | herochatFactionDistance | 0 | See HeroChat documentation. (0=unlimited?) | number |
 | boolean herochatFactionIsShortcutAllowed | false | **TODO** | true/false |
@@ -27,7 +27,7 @@ source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/bl
 | Set<String> herochatFactionWorlds | new HashSet<String>() | 
 | String herochatAlliesName | "Allies" | 
 | String herochatAlliesNick | "A" | 
-| String herochatAlliesFormat | "{color}[&l{nick}&r&f {factions_relcolor}&l{factions_roleprefix}&r{ factions_relcolor }{factions_name PIPE rp}{sender}{color}] &f{msg}" | 
+| String herochatAlliesFormat | [see below](#herochatalliesformat-default-value) | 
 | ChatColor herochatAlliesColor | ChatColor.DARK_PURPLE | 
 | int herochatAlliesDistance | 0 | 
 | boolean herochatAlliesIsShortcutAllowed | false | 
@@ -61,3 +61,16 @@ source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/bl
 | boolean logLandUnclaims | true | 
 | boolean logMoneyTransactions | true | 
 | boolean logPlayerCommands | true | 
+
+### chatSetFormatTo default value
+```
+<{factions_relcolor}§l{factions_roleprefix}§r{factions_relcolor}{factions_name|rp}§f%1$s> %2$s
+```
+### herochatFactionFormat default value
+```
+{color}[&l{nick}&r{color} &l{factions_roleprefix}&r{color}{factions_title|rp}{sender}{color}] &f{msg}
+```
+### herochatAlliesFormat default value
+```
+{color}[&l{nick}&r&f {factions_relcolor}&l{factions_roleprefix}&r{factions_relcolor}{factions_name|rp}{sender}{color}] &f{msg}
+```

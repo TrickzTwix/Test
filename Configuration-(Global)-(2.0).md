@@ -4,9 +4,9 @@ source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/bl
 
 | Configuration name | Default value | Description | Acceptable values |
 | ------------------ | ------------- | ----------- | ----------------- |
-| taskPlayerPowerUpdateMinutes | 1 | How often to run the power update | decimal |
-| taskPlayerDataRemoveMinutes | 5 | How often to run the data removal | decimal |
-| taskEconLandRewardMinutes | 20 | How often to run the land reward | decimal |
+| taskPlayerPowerUpdateMinutes | 1.0 | How often to run the power update | decimal |
+| taskPlayerDataRemoveMinutes | 5.0 | How often to run the data removal | decimal |
+| taskEconLandRewardMinutes | 20.0 | How often to run the land reward | decimal |
 | removePlayerDataWhenBanned | true | Whether or not to delete the data for a player when they are banned | true/false |
 | removePlayerDataAfterInactiveDays | 20.0 | How many days a player has to be inactive before their data is deleted | decimal |
 | radiusClaimFailureLimit | 9 | When doing a radius claim, how many fails in a row to tolerate before aborting | number |

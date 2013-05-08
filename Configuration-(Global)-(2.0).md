@@ -2,6 +2,10 @@ This configuration file is stored on disk at `plugins/Factions/???`.
 
 source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/blob/master/src/com/massivecraft/factions/entity/MConf.java)
 
+| Test    | Table     | Blah |
+| ------- |:---------:| --- |
+| aaaa    |   bbbb    | c|
+|  factions | yay |
 {| class="wikitable"
 ! test
 ! Table

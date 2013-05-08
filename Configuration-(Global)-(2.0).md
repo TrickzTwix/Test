@@ -1,5 +1,6 @@
+This configuration file is stored on disk at `plugins/Factions/???`.
+
 source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/blob/master/src/com/massivecraft/factions/entity/MConf.java)
-disk file: plugins/Factions/?????
 
 Configuration fields:
  - taskPlayerPowerUpdateMinutes 

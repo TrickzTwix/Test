@@ -12,46 +12,46 @@ source file: [factions.entity.MConf](https://github.com/MassiveCraft/Factions/bl
 | radiusClaimFailureLimit | 9 | When doing a radius claim, how many fails in a row to tolerate before aborting | number |
 | radiusClaimRadiusLimit | 5 | Maximum radius when using radius claim. (Load = radius^2) | number |
 | chatSetFormat | false | Override chat format from other plugins? | true/false |
-| chatSetFormatAt | EventPriority.LOWEST | What EventPriority to set the chat format at. | [EventPriority](//link_goes_here) |
+| chatSetFormatAt | LOWEST | What EventPriority to set the chat format at. | [EventPriority](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/event/EventPriority.java) |
 | chatSetFormatTo | [see below](#chatsetformatto-default-value) | What chat format to override to | string |
 | chatParseTags | true | Parse tags in the chat format? | true/false |
-| chatParseTagsAt | EventPriority.LOW | What EventPriority to parse the tags at. | [EventPriority](//link_goes_here) |
+| chatParseTagsAt | LOW | What EventPriority to parse the tags at. | [EventPriority](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/event/EventPriority.java) |
 | herochatFactionName | "Faction" | HeroChat faction-only channel long name. | string |
 | herochatFactionNick | "F" | HeroChat faction-only channel short name. | string |
-| herochatFactionFormat | [see below](#herochatfactionformat-default-value) | What chat format too use for the faction-only channel. | string |
-| herochatFactionColor | ChatColor.GREEN | What color the faction-only channel should be. | [ChatColor](//link_goes_here) |
-| herochatFactionDistance | 0 | See HeroChat documentation. (0=unlimited?) | number |
-| boolean herochatFactionIsShortcutAllowed | false | **TODO** | true/false |
-| boolean herochatFactionCrossWorld | true | **TODO** | true/false |
-| boolean herochatFactionMuted | false | **TODO** | true/false |
-| Set<String> herochatFactionWorlds | new HashSet<String>() | 
-| String herochatAlliesName | "Allies" | 
-| String herochatAlliesNick | "A" | 
-| String herochatAlliesFormat | [see below](#herochatalliesformat-default-value) | 
-| ChatColor herochatAlliesColor | ChatColor.DARK_PURPLE | 
-| int herochatAlliesDistance | 0 | 
-| boolean herochatAlliesIsShortcutAllowed | false | 
-| boolean herochatAlliesCrossWorld | true | 
-| boolean herochatAlliesMuted | false | 
-| Set<String> herochatAlliesWorlds | new HashSet<String>() |
-| ChatColor colorMember | ChatColor.GREEN | 
-| ChatColor colorAlly | ChatColor.DARK_PURPLE | 
-| ChatColor colorTruce | ChatColor.LIGHT_PURPLE | 
-| ChatColor colorNeutral | ChatColor.WHITE | 
-| ChatColor colorEnemy | ChatColor.RED | 
-| ChatColor colorNoPVP | ChatColor.GOLD | 
-| ChatColor colorFriendlyFire | ChatColor.DARK_RED | 
-| String prefixLeader | "**" | 
-| String prefixOfficer | "*" | 
-| String prefixMember | "+" | 
-| String prefixRecruit | "-" | 
+| herochatFactionFormat | [see below](#herochatfactionformat-default-value) | What chat format to use for the faction-only channel. | string |
+| herochatFactionColor | GREEN | What color the faction-only channel should be. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| herochatFactionDistance | 0 | **TODO** 0=unlimited? | number |
+| herochatFactionIsShortcutAllowed | false | **TODO** | true/false |
+| herochatFactionCrossWorld | true | **TODO** | true/false |
+| herochatFactionMuted | false | **TODO** | true/false |
+| herochatFactionWorlds | empty list | Which worlds to use HeroChat integration onfor the faction channel. *May be removed in favor of world config files.* | list of string |
+| herochatAlliesName | "Allies" | HeroChat allies-only channel long name. | string |
+| herochatAlliesNick | "A" | HeroChat allies-only channel short name. | string |
+| herochatAlliesFormat | [see below](#herochatalliesformat-default-value) | What chat format to use for the faction-only channel. | string |
+| herochatAlliesColor | DARK_PURPLE | What color the faction-only channel should be. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| herochatAlliesDistance | 0 | **TODO** 0=unlimited? | number |
+| herochatAlliesIsShortcutAllowed | false | **TODO** | true/false |
+| herochatAlliesCrossWorld | true | **TODO** | true/false |
+| herochatAlliesMuted | false | **TODO** | true/false |
+| herochatFactionWorlds | empty list | Which worlds to use HeroChat integration on for the allies channel. *May be removed in favor of world config files.* | list of string |
+| colorMember | ChatColor.GREEN | Color for members of your own faction. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorAlly | ChatColor.DARK_PURPLE | Color for members of allied factions. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorTruce | ChatColor.LIGHT_PURPLE | Color for members of truced factions. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorNeutral | ChatColor.WHITE | Color for members of neutral factions. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorEnemy | ChatColor.RED | Color for members of enemy factions. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorNoPVP | ChatColor.GOLD | Color for members of peaceful factions. | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| colorFriendlyFire | ChatColor.DARK_RED | **TODO** | [ChatColor](/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/ChatColor.java) |
+| prefixLeader | "**" | Chat prefix for faction leaders. | string |
+| prefixOfficer | "*" | Chat prefix for faction officers. | string |
+| prefixMember | "+" | Chat prefix for faction members. | string |
+| prefixRecruit | "-" | Chat prefix for recruits. | string |
 | playersWhoBypassAllProtection | empty list | Players who bypass all protection checks. Intended for other plugins that use a fake player to take actions. *May be removed in favor of world config files.* | list of string |
 | worldsNoClaiming | empty list | Worlds where no faction claiming is allowed. **This overrides `/f bypass`.** | list of string |
 | worldsNoPowerLoss | empty list | Worlds where death does not cause power loss. *May be removed in favor of world config files.* | list of string |
-| worldsIgnorePvP | new LinkedHashSet<String>() | Worlds where Factions should perform no checks relating to PvP. *May be removed in favor of world config files.* | list of string |
+| worldsIgnorePvP | empty list | Worlds where Factions should perform no checks relating to PvP. *May be removed in favor of world config files.* | list of string |
 | handleExploitObsidianGenerators | true | Should Factions prevent the obsidian generator exploit? | true/false |
-| boolean handleExploitEnderPearlClipping | true | Should Factions attempt to block attempts at ender pearl clipping? | true/false |
-| boolean handleExploitTNTWaterlog | false | Should Factions attempt to block ???**TODO**??? ? | true/false |
+| handleExploitEnderPearlClipping | true | Should Factions attempt to block attempts at ender pearl clipping? | true/false |
+| handleExploitTNTWaterlog | false | Should Factions attempt to block ???**TODO**??? ? | true/false |
 | boolean logFactionCreate | true | 
 | boolean logFactionDisband | true | 
 | boolean logFactionJoin | true | 

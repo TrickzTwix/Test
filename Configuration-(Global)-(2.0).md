@@ -60,5 +60,4 @@ Configuration fields:
  - logLandClaims
  - logLandUnclaims
  - logMoneyTransactions
-
-	public boolean logPlayerCommands = true;
+ - logPlayerCommands

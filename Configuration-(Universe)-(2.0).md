@@ -2,6 +2,184 @@ This configuration file is stored on disk at `/mstore/factions_uconf@[UNIVERSE_I
 
 source file: [factions.entity.UConf](//github.com/MassiveCraft/Factions/blob/master/src/com/massivecraft/factions/entity/UConf.java)
 
+```json
+{
+    "enabled": true,
+    "factionIdNone": "3defeec7-b3b1-48d9-82bb-2a8903df24e3",
+    "factionIdSafezone": "bfe88990-ce13-412f-b839-8784a02ef8b0",
+    "factionIdWarzone": "04386096-acb8-484f-8daa-96c6331fa56a",
+    "defaultPlayerFactionId": "3defeec7-b3b1-48d9-82bb-2a8903df24e3",
+    "defaultPlayerRole": "RECRUIT",
+    "defaultPlayerPower": 0,
+    "defaultFactionOpen": false,
+    "defaultFactionFlags": {
+        "PERMANENT": false,
+        "PEACEFUL": false,
+        "INFPOWER": false,
+        "POWERLOSS": true,
+        "PVP": true,
+        "FRIENDLYFIRE": false,
+        "MONSTERS": true,
+        "EXPLOSIONS": true,
+        "FIRESPREAD": true,
+        "ENDERGRIEF": false
+    },
+    "defaultFactionPerms": {
+        "BUILD": [
+            "LEADER",
+            "OFFICER",
+            "MEMBER",
+            "ALLY"
+        ],
+        "PAINBUILD": [],
+        "DOOR": [
+            "LEADER",
+            "OFFICER",
+            "MEMBER",
+            "RECRUIT",
+            "ALLY"
+        ],
+        "BUTTON": [
+            "LEADER",
+            "OFFICER",
+            "MEMBER",
+            "RECRUIT",
+            "ALLY"
+        ],
+        "LEVER": [
+            "LEADER",
+            "OFFICER",
+            "MEMBER",
+            "RECRUIT",
+            "ALLY"
+        ],
+        "CONTAINER": [
+            "LEADER",
+            "OFFICER",
+            "MEMBER"
+        ],
+        "INVITE": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "KICK": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "SETHOME": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "WITHDRAW": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "TERRITORY": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "ACCESS": [
+            "LEADER",
+            "OFFICER"
+        ],
+        "DISBAND": [
+            "LEADER"
+        ],
+        "PERMS": [
+            "LEADER"
+        ]
+    },
+    "powerMax": 10,
+    "powerMin": 0,
+    "powerPerHour": 2,
+    "powerPerDeath": -2,
+    "canLeaveWithNegativePower": true,
+    "factionMemberLimit": 0,
+    "factionPowerMax": 0,
+    "factionNameLengthMin": 3,
+    "factionNameLengthMax": 16,
+    "factionNameForceUpperCase": false,
+    "claimsMustBeConnected": true,
+    "claimingFromOthersAllowed": true,
+    "claimsCanBeUnconnectedIfOwnedByOtherFaction": true,
+    "claimsRequireMinFactionMembers": 1,
+    "claimedLandsMax": 0,
+    "homesEnabled": true,
+    "homesMustBeInClaimedTerritory": true,
+    "homesTeleportCommandEnabled": true,
+    "homesTeleportAllowedFromEnemyTerritory": true,
+    "homesTeleportAllowedFromDifferentWorld": true,
+    "homesTeleportAllowedEnemyDistance": 32,
+    "homesTeleportIgnoreEnemiesIfInOwnTerritory": true,
+    "permanentFactionsDisableLeaderPromotion": false,
+    "actionDeniedPainAmount": 2,
+    "disablePVPForFactionlessPlayers": false,
+    "enablePVPAgainstFactionlessInAttackersLand": false,
+    "territoryShieldFactor": 0.3,
+    "denyCommandsPermanentFactionMember": [],
+    "denyCommandsTerritoryRelation": {
+        "ENEMY": [
+            "home",
+            "sethome",
+            "tpahere",
+            "tpaccept",
+            "tpa",
+            "warp",
+            "warps",
+            "spawn",
+            "wtp",
+            "uspawn",
+            "utp",
+            "mspawn",
+            "mtp",
+            "fspawn",
+            "ftp",
+            "jspawn",
+            "jtp"
+        ],
+        "NEUTRAL": [],
+        "TRUCE": [],
+        "ALLY": [],
+        "MEMBER": []
+    },
+    "lwcRemoveOnChange": {
+        "BUY": false,
+        "SELL": false,
+        "CONQUER": false,
+        "PILLAGE": false
+    },
+    "econEnabled": false,
+    "econLandReward": 0,
+    "econUniverseAccount": "",
+    "econChunkCost": {
+        "BUY": 30,
+        "SELL": -20,
+        "CONQUER": -10,
+        "PILLAGE": -10
+    },
+    "econCostCreate": 200,
+    "econCostSethome": 0,
+    "econCostJoin": 0,
+    "econCostLeave": 0,
+    "econCostKick": 0,
+    "econCostInvite": 0,
+    "econCostDeinvite": 0,
+    "econCostHome": 0,
+    "econCostName": 0,
+    "econCostDescription": 0,
+    "econCostTitle": 0,
+    "econCostOpen": 0,
+    "econRelCost": {
+        "ENEMY": 0,
+        "ALLY": 0,
+        "TRUCE": 0,
+        "NEUTRAL": 0
+    },
+    "bankEnabled": true,
+    "bankFactionPaysCosts": true,
+    "bankFactionPaysLandCosts": true
+}
+```
 | Configuration name | Default value | Description | Acceptable values |
 | ------------------ | ------------- | ----------- | ----------------- |
 | enabled            | true          | Is Factions enabled on this universe? | true/false |

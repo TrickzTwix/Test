@@ -1,4 +1,4 @@
-This configuration file is stored on disk at `plugins/Factions/???/???`.
+This configuration file is stored on disk at `/mstore/factions_uconf@[UNIVERSE_ID]/instance.json?`.
 
 source file: [factions.entity.UConf](//github.com/MassiveCraft/Factions/blob/master/src/com/massivecraft/factions/entity/UConf.java)
 

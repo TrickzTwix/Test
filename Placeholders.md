@@ -1,5 +1,9 @@
 We hook into the plugin [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to allow you to hook Factions info into other plugins. Support was added on [Jan 4 '17](https://github.com/drtshock/Factions/commit/e343ac69fa9b88edce0148ac0ac095af94584638).
 
+## Internal Placeholders
+Spots that you can use placeholders from other plugins in FactionsUUID text:
+- [ ] f show
+
 ## External Placeholders
 These are placeholders you can use in other plugins that will hook into FactionsUUID.
 
@@ -42,7 +46,3 @@ Player Placeholder | Description
 %factionsuuid_faction_kills% | Total kills this Faction has
 %factionsuuid_faction_deaths% | Total deaths this Faction has
 %factionsuuid_faction_maxvaults% | Max vaults this Faction can have
-
-## Internal Placeholders
-Spots that you can use placeholders from other plugins in FactionsUUID text:
-- [ ] f show

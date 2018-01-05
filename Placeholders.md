@@ -7,6 +7,7 @@ Spots that you can use placeholders from other plugins in FactionsUUID text:
 ## External Placeholders
 These are placeholders you can use in other plugins that will hook into FactionsUUID.
 
+### Players
 
 Player Placeholder | Description
 --- | ---
@@ -18,6 +19,11 @@ Player Placeholder | Description
 %factionsuuid_player_maxpower% | Max power a player can have
 %factionsuuid_player_kills% | Kills by this player
 %factionsuuid_player_deaths% | Deaths by this player
+
+### Factions
+
+Faction Placeholder | Description
+--- | ---
 %factionsuuid_faction_name% | Faction's tag
 %factionsuuid_faction_power% | Faction's current power
 %factionsuuid_faction_powermax% | Faction's max power

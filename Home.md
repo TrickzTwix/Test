@@ -6,3 +6,4 @@ Welcome to the FactionsUUID wiki!
 - [ ] Scoreboards
 - [ ] Lang file
 - [ ] Definitions
+- [ ] Placeholders

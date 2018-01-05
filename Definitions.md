@@ -2,7 +2,8 @@ Word | Meaning
 --- | ---
 Faction | A group of players linked together on a team.
 Relation | The connection between a set of teams (Ally, Truce, Enemy, Neutral).
-Ally | A Faction, that is with you and can trust.
+Trust |
+Ally | A Faction, that is with you and can be trusted.
 Truce | A temporarily alliance, between two Factions.
 Enemy | A faction that you or the team are against.
 Neutral | The default relation between two factions.

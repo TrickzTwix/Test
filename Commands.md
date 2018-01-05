@@ -1,3 +1,5 @@
+All commands in alphabetical order.
+
 Command | Permission | Usage
 --- | --- | ---
 /f admin <target> |	factions.admin |	Set new player as admin of your Faction

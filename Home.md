@@ -5,3 +5,4 @@ Welcome to the FactionsUUID wiki!
 - [x] [/f perm](https://github.com/drtshock/Factions/wiki/f-perm)
 - [ ] Scoreboards
 - [ ] Lang file
+- [ ] Definitions

@@ -14,9 +14,6 @@ Player Placeholder | Description
 %factionsuuid_player_maxpower% | Max power a player can have
 %factionsuuid_player_kills% | Kills by this player
 %factionsuuid_player_deaths% | Deaths by this player
-
-Faction Placeholder | Description
---- | ---
 %factionsuuid_faction_name% | Faction's tag
 %factionsuuid_faction_power% | Faction's current power
 %factionsuuid_faction_powermax% | Faction's max power

@@ -6,4 +6,4 @@ Welcome to the FactionsUUID wiki!
 - [x] [Placeholders](https://github.com/drtshock/Factions/wiki/Placeholders)
 - [ ] Scoreboards
 - [ ] Lang file
-- [x] Definitions
+- [x] [Definitions](https://github.com/drtshock/Factions/wiki/Definitions)

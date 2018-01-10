@@ -14,3 +14,4 @@ Power | The influence that a faction has. You can loose power by a player dying,
 Description | The purpose or reason for the creation of the faction.
 Balance | The amount of money the player has in or outside of the faction. There is player and faction balance.
 Warp | The destination or a location. Alternative way of travel.
+Raid | The word one uses to destroy, loot or obliterate a faction using force, strategy, and or TNT. 

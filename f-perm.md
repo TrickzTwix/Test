@@ -28,6 +28,6 @@ Implemented Date | Action | Description
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/baea59a1cd22a9427c388e870117a20556885279) | sethome | Allow setting the Faction home
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/ad10222c2defed75de23eae252897899229bcdfe) | withdraw | Allow withdrawing from the Faction bank
 [Jan 4 '18](https://github.com/drtshock/Factions/commit/4db185e3ee757be2bea410f6e3164737c612bfc1) | promote | Allow promoting / demoting other players. Doesn't allow promotion up to admin.
-TBD | perms | Allow managing permissions
+[Jan 4 '18](https://github.com/drtshock/Factions/commit/687bac31dbb885e650bc50e1e99e491865869b2d) | perms | Allow managing permissions
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/1b088ccd54cf79e7783f67d1cd293b35d65465ab) | warp | Allow use of /f warp
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/1b088ccd54cf79e7783f67d1cd293b35d65465ab) | setwarp | Allow use of /f setwarp

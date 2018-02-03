@@ -22,7 +22,7 @@ Implemented Date | Action | Description
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/182022fe5fa15e44b2bc31ed2733dff8fbf1888c) | button | Allow the use of buttons
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/182022fe5fa15e44b2bc31ed2733dff8fbf1888c) | door | Allow use of doors
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/182022fe5fa15e44b2bc31ed2733dff8fbf1888c) | lever | Allow the use of levers
-TBD | container | Allow the use of containers (chests, enderchests)
+[Feb 3 '18](https://github.com/drtshock/Factions/commit/32b13befcecb751e3b2c6dbb1eba7daf245db87e) | container | Allow the use of containers (chests, enderchests, trapped chests)
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/baea59a1cd22a9427c388e870117a20556885279) | invite | Allow inviting new players
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/925014bd60ae7972c829366ff87214deea59871e) | kick | Allow kicking players
 [Feb 3 '18](https://github.com/drtshock/Factions/commit/baea59a1cd22a9427c388e870117a20556885279) | sethome | Allow setting the Faction home

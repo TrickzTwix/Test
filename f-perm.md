@@ -9,7 +9,7 @@ Command | Description
 /f perm truce all allow | Allow truces to do everything
 
 ## Permissions
-Permissions are defined by [Actions](https://github.com/drtshock/Factions/blob/1.6.x/src/main/java/com/massivecraft/factions/zcore/fperms/Action.java). Actions are something that a user does on the server. To grant a user permission to do something, you must specify the `Action` in the command. 
+Permissions are defined by [PermissableActions](https://github.com/drtshock/Factions/blob/1.6.x/src/main/java/com/massivecraft/factions/zcore/fperms/PermissableAction.java). PermissableActions are something that a user does on the server. To grant a user permission to do something, you must specify the `PermissableActions` in the command. 
 
 Here is a list of all actions and what they do.
 

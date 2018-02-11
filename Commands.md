@@ -2,13 +2,13 @@ All commands in alphabetical order.
 
 Command | Permission | Usage
 --- | --- | ---
-/f admin <target> |	factions.admin |	Set new player as admin of your Faction
+/f admin <target> |	factions.admin |	Set new player as leader of your faction.
 /f ahome <target> |	factions.ahome |	Teleport to a player's faction's home
 /f announce <message…>	| factions.announce |	Send a message to players in your faction
-/f autoclaim [faction] |	factions.autoclaim |	Autoclaim land you walk over for your Faction. Admins can specify other Factions
-/f autohelp |	none |	Show help for all commands
-/f boom [on/off] |	factions.noboom	| Toggle peaceful explosions in your faction's territory on or off
-/f bypass |	factions.bypass |	Set yourself to bypass Faction permission checks
+/f autoclaim [faction] |	factions.autoclaim |	Auto-claim land when you walk over wilderness for your faction. Admins can specify other factions and claim for them.
+/f autohelp |	none |	Show help for all commands.
+/f boom [on/off] |	factions.noboom	| Toggle peaceful explosions in your faction's territory on or off.
+/f bypass |	factions.bypass | Set yourself to bypass Faction permission checks
 /f chat <mode>	| factions.chat	| Toggle chat modes. Or specify which channel you want to be in (public, alliance, faction, truce)
 /f chatspy |	factions.chatspy |	Enable spying on all private chat channels
 /f claim [radius] [faction] |	factions.claim	| Claim land for your faction given an optional radius. Admins can specify other factions.

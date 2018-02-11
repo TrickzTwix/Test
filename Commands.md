@@ -1,6 +1,6 @@
 All commands in alphabetical order.
 
-Command | Permission | Usage
+Command | Permission | Meaning
 --- | --- | ---
 /f admin <target> |	factions.admin |	Set new player as leader of your faction.
 /f ahome <target> |	factions.ahome |	Teleport to a player's faction's home

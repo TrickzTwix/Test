@@ -60,7 +60,7 @@ Command | Permission | Meaning
 /f sb	| factions.scoreboard |	Toggle the factions scoreboard on or off.
 /f sc |	factions.seechunk	| See outlines around the border of the chunk you're standing in. No one else can see the outlines.
 /f defaultrole <role> |	factions.defaultrank |	Set the default role that new members will get when they join your faction.
-/f setwarp <name> [password] |	factions.setwarp |	Set a warp with an optional password to your location. More information at [Password Protected Warps] (https://github.com/drtshock/Factions/wiki/Password-Protected-Warps)
+/f setwarp <name> [password] |	factions.setwarp |	Set a warp with an optional password to your location. More information at [Password Protected Warps](https://github.com/drtshock/Factions/wiki/Password-Protected-Warps)
 /f sethome	| factions.sethome |	Set your faction's home.
 /f setmaxvaults <faction> <number> |	factions.setmaxvaults	| Set the max vaults a faction can have.
 /f show [faction] |	factions.show |	Show info about a Faction. Default is yours.

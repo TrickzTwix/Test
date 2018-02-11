@@ -19,7 +19,7 @@ Command | Permission | Usage
 /f defaultrole <role> | factions.defaultrank | Set the default rank new members get when joining your Faction
 /f deinvite [name] |	factions.deinvite |	Revoke an invite from a player. If no player defined, lists all players with pending invites with click to revoke.
 /f delwarp <name> |	factions.setwarp |	Delete a warp
-/f demote <name> |	factions.promote |	Demote a player 1 rank
+/f demote <name> |	factions.promote |	Demote a player by one rank.
 /f desc <description…> |	factions.description |	Set your faction's new description
 /f disband |	factions.disband |	Disband your faction
 /f warp [warp] [password] |	factions.warp |	Go to a Faction warp. Specify password if needed.

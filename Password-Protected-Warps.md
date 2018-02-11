@@ -1,4 +1,4 @@
-Players with the password can use it to teleport to the specified warp.
+Players with the password can use it to teleport to the specified warp that is password protected. To set a warp with a password, look down below.
 
 Command | Permission | Meaning
 --- | --- | ---

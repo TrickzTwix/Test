@@ -1,5 +1,5 @@
 Players with the password can use it to teleport to the specified warp.
-Command|Permission|Meaning
+Command | Permission | Meaning
 --- | ---
 /f delwarp | factions.setwarp | Delete a warp
 /f warp [warp] [password] | factions.warp | Go to a faction warp. Specify password if needed.

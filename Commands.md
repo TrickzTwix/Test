@@ -32,6 +32,7 @@ Command | Permission | Usage
 /f lock	| factions.lock |	Lock datafiles from being overwritten. Will make anything on the server not get saved.
 /f logins |	factions.monitorlogins |	Toggle monitoring of logins for your Faction
 /f map [on/off]	| factions.map |	View the Faction map of your area
+/f mapheight [value] | factions.mapheight | Set how many lines your /f map will show
 /f mod [name] |	factions.mod |	Promote a player in your Faction to mod
 /f modifypower <name> <power>	| factions.modifypower	| Modify a player's power. Adds <power> to the player's current power.
 /f money |	none |	Show help for money commands

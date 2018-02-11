@@ -7,7 +7,7 @@ Command | Permission | Usage
 /f announce <message…>	| factions.announce |	Send a message to players in your faction
 /f autoclaim [faction] |	factions.autoclaim |	Autoclaim land you walk over for your Faction. Admins can specify other Factions
 /f autohelp |	none |	Show help for all commands
-/f boom [on/off] |	factions.noboom	| Toggle peaceful explosions in your Faction's territory on or off
+/f boom [on/off] |	factions.noboom	| Toggle peaceful explosions in your faction's territory on or off
 /f bypass |	factions.bypass |	Set yourself to bypass Faction permission checks
 /f chat <mode>	| factions.chat	| Toggle chat modes. Or specify which channel you want to be in (public, alliance, faction, truce)
 /f chatspy |	factions.chatspy |	Enable spying on all private chat channels
@@ -24,11 +24,11 @@ Command | Permission | Usage
 /f disband |	factions.disband |	Disband your faction
 /f warp [warp] [password] |	factions.warp |	Go to a Faction warp. Specify password if needed.
 /f help <page> |	factions.help |	List help pages for things
-/f home |	factions.home |	Go to your Faction's home
-/f invite <target> |	factions.invite |	Invite a player to your Faction
+/f home |	factions.home |	Go to your faction's home
+/f invite <target> |	factions.invite |	Invite a player to your faction
 /f join <faction> |	factions.join |	Join a defined Faction
-/f kick <target> |	factions.kick |	Kick a player from your Faction
-/f leave	| factions.leave	| Leave your Faction
+/f kick <target> |	factions.kick |	Kick a player from your faction
+/f leave	| factions.leave	| Leave your faction
 /f list	| factions.list |	List top Factions by players
 /f lock	| factions.lock |	Lock datafiles from being overwritten. Will make anything on the server not get saved.
 /f logins |	factions.monitorlogins |	Toggle monitoring of logins for your Faction
@@ -61,13 +61,13 @@ Command | Permission | Usage
 /f sc |	factions.seechunk	| See outlines around the border of the chunk you're standing in. No one else can see the outlines.
 /f defaultrole <role> |	factions.defaultrank |	Set the default role that new members will get when they join your Faction
 /f setwarp <name> [password] |	factions.setwarp |	Set a warp with an optional password to your location
-/f sethome	| factions.sethome |	Set your Faction's home
+/f sethome	| factions.sethome |	Set your faction's home
 /f setmaxvaults <faction> <number> |	factions.setmaxvaults	| Set the max vaults a Faction can have
 /f show [faction] |	factions.show |	Show info about a Faction. Defaults to yours.
 /f showinvites |	factions.showinvites |	Show pending invites for your Faction
 /f status |	factions.status	| Show status of all players in your Faction
 /f stuck	| factions.stuck	| Attempts to teleport you to the nearest wilderness chunk
-/f tag <tag>	| factions.tag	| Change your Faction's tag
+/f tag <tag>	| factions.tag	| Change your faction's tag
 /f title <player> [title] |	factions.title	| Set a player's custom title. Will charge them if enabled.
 /f togglealliancechat |	factions.togglealliancechat	| Toggle ignoring alliance chat
 /f top <criteria> [page] |	factions.top	| List top factions by criteria (members, start, power, land, online, money)

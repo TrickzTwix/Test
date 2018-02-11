@@ -11,18 +11,18 @@ Command | Permission | Usage
 /f bypass |	factions.bypass | Set yourself to bypass Faction permission checks
 /f chat <mode>	| factions.chat	| Toggle chat modes. Or specify which channel you want to be in (public, alliance, faction, truce)
 /f chatspy |	factions.chatspy |	Enable spying on all private chat channels
-/f claim [radius] [faction] |	factions.claim	| Claim land for your faction given an optional radius. Admins can specify other factions.
-/f claimline <chunks> [direction] [faction] |	factions.claimline |	Claim land in a line for your Faction given an optional length and direction. Admins can specify other factions.
-/f config <setting> <value> |	factions.config |	Set configuration values in the conf.json
-/f convert <backend> |	console only |	Convert from your current backend to a new backend (JSON). New backends will be added in the future (MYSQL)
-/f create <tag> |	factions.create |	Create a Faction with the given tag
-/f defaultrole <role> | factions.defaultrank | Set the default rank new members get when joining your Faction
-/f deinvite [name] |	factions.deinvite |	Revoke an invite from a player. If no player defined, lists all players with pending invites with click to revoke.
+/f claim [radius] [faction] |	factions.claim	| Claim land for your faction given an optional radius. Admins can specify other factions and claim for them.
+/f claimline <chunks> [direction] [faction] |	factions.claimline |	Claim land in a line for your Faction given an optional length and direction. Admins can specify other factions and claim for them.
+/f config <setting> <value> |	factions.config |	Set configuration values in the conf.json. 
+/f convert <backend> |	console only |	Convert from your current backend to a new backend (JSON). New backends will be added in the future (MYSQL).
+/f create <name> |	factions.create |	Create a Faction with the given name.
+/f defaultrole <role> | factions.defaultrank | Set the default rank new members get when joining your faction.
+/f deinvite [name] |	factions.deinvite |	Revoke an invite from a player. If no player is defined, it will list all players with pending invites. Click the names to revoke their invite.
 /f delwarp <name> |	factions.setwarp |	Delete a warp
 /f demote <name> |	factions.promote |	Demote a player by one rank.
 /f desc <description…> |	factions.description |	Set your faction's new description
 /f disband |	factions.disband |	Disband your faction
-/f warp [warp] [password] |	factions.warp |	Go to a Faction warp. Specify password if needed.
+/f warp [warp] [password] |	factions.warp |	Go to a faction warp. Specify password if needed.
 /f help <page> |	factions.help |	List help pages for things
 /f home |	factions.home |	Go to your faction's home
 /f invite <target> |	factions.invite |	Invite a player to your faction

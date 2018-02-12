@@ -8,4 +8,4 @@ Here is a list of pages that could help you set up the configuration files, or j
 - [ ] Scoreboards
 - [ ] Lang file
 - [x] [Definitions](https://github.com/drtshock/Factions/wiki/Definitions)
-- [x] [Faction Warps](https://github.com/drtshock/Factions/wiki/Factions-Warps) ![](https://s9.postimg.org/wkal8ghtr/Untitled-1.png)
+- [x] [Faction Warps](https://github.com/drtshock/Factions/wiki/Faction-Warps) ![](https://s9.postimg.org/wkal8ghtr/Untitled-1.png)

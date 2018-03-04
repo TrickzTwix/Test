@@ -22,7 +22,7 @@ Command | Permission | Meaning
 /f demote <name> |	factions.promote |	Demote a player by one rank.
 /f desc <description…> |	factions.description |	Set your faction's new description.
 /f disband |	factions.disband |	Disband your faction.
-/f warp [warp] [password] |	factions.warp |	Go to a faction warp. Specify password if needed.
+/f fly | factions.fly | Fly in your Faction territory.
 /f help <page> |	factions.help |	List help pages for things.
 /f home |	factions.home |	Go to your faction's home.
 /f invite <target> |	factions.invite |	Invite a player to your faction.
@@ -75,4 +75,5 @@ Command | Permission | Meaning
 /f unclaimall |	factions.unclaimall |	Unclaim all of your faction's land.
 /f vault [number] |	factions.vault |	Open your faction's vault. If no vault is defined, it will list available vaults.
 /f version |	factions.version	| Show the version string for FactionsUUID.
+/f warp [warp] [password] |	factions.warp |	To go a warp, password optional. Opens GUI if no warp defined.
 /f warunclaimall	| factions.managewarzone |	Unclaim all warzone claims.

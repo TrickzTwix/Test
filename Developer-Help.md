@@ -52,7 +52,7 @@ FPlayer fplayer = FPlayers.getInstance().getByPlayer(Player);
 
 **By UUID**
 ```java
-FPlayer fplayer = FPlayers.getInstance().getById(UUID.toString());
+FPlayer fplayer = FPlayers.getInstance().getById(uuid.toString());
 ```
 
 ## Factions

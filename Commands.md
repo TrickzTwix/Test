@@ -22,7 +22,7 @@ Command | Permission | Meaning
 /f demote <name> |	factions.promote |	Demote a player by one rank.
 /f desc <description…> |	factions.description |	Set your faction's new description.
 /f disband |	factions.disband |	Disband your faction.
-/f fly | factions.fly | Fly in your Faction territory.
+/f fly | factions.fly | Fly in your faction's territory. Disabled in combat.
 /f help <page> |	factions.help |	List help pages for things.
 /f home |	factions.home |	Go to your faction's home.
 /f invite <target> |	factions.invite |	Invite a player to your faction.

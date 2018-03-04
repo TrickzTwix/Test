@@ -23,10 +23,10 @@ softdepend: [Factions]
 ```
 
 ```java
-        Plugin factions = getServer().getPluginManager().getPlugin("Factions");
-        if (factions != null && factions.isEnabled()) {
-            // Factions was found, you can hook into it later.
-        }
+Plugin factions = getServer().getPluginManager().getPlugin("Factions");
+if (factions != null && factions.isEnabled()) {
+    // Factions was found, you can hook into it later.
+}
 ```
 
 ## FLocation
@@ -47,12 +47,12 @@ There is always **1** FPlayer object for each player that's been on the server, 
 
 **By Bukkit Player**
 ```java
-        FPlayer fplayer = FPlayers.getInstance().getByPlayer(Player);
+FPlayer fplayer = FPlayers.getInstance().getByPlayer(Player);
 ```
 
 **By UUID**
 ```java
-        FPlayer fplayer = FPlayers.getInstance().getById(UUID.toString());
+FPlayer fplayer = FPlayers.getInstance().getById(UUID.toString());
 ```
 
 ## Factions
@@ -60,10 +60,10 @@ There are multiple ways you can get a Faction.
 
 **Most common is by name**
 ```java
-        Faction faction = Factions.getInstance().getFactionById("name");
+Faction faction = Factions.getInstance().getFactionById("name");
 ```
 
 If you have a FLocation, you can get the Faction that owns it (including Wilderness, Warzone, and Safezone)
 ```java
-        Faction faction = Board.getInstance().getFactionAt(FLocation);
+Faction faction = Board.getInstance().getFactionAt(FLocation);
 ```

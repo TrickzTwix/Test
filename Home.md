@@ -12,6 +12,6 @@ Here is a list of pages that could help you set up the configuration files, or j
 - [x] [Developer Help](https://github.com/drtshock/Factions/wiki/Developer-Help) ![](https://s9.postimg.org/wkal8ghtr/Untitled-1.png)
 
 ## Support
-Support is only given through buying the plugin on [Spigot](https://www.spigotmc.org/resources/factionsuuid.1035/.)
+Support is only given by buying the plugin on [Spigot](https://www.spigotmc.org/resources/factionsuuid.1035/.). However, feel free to post bugs and suggestions on the issues section!
 
 [![Discord](https://imgur.com/MFRRBn4.png)](https://discord.gg/FfAz3eE)

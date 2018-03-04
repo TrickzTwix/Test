@@ -19,6 +19,7 @@ Player Placeholder | Description
 %factionsuuid_player_maxpower% | Max power a player can have
 %factionsuuid_player_kills% | Kills by this player
 %factionsuuid_player_deaths% | Deaths by this player
+%factionsuuid_player_role% | Player faction role
 
 ### Factions
 

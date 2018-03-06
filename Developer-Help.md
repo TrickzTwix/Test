@@ -56,7 +56,8 @@ FPlayer fplayer = FPlayers.getInstance().getById(uuid.toString());
 ```
 **Get Role**
 ```java
-Role fplayerRole = fplayer.getRole();``` 
+Role fplayerRole = fplayer.getRole();
+``` 
 
 ## Factions
 There are multiple ways you can get a Faction.

@@ -2,7 +2,7 @@ Faction Gui for /f Perms.
 This tells you what each function does.
 
 **Command:**
-/f perm <Permission> <Relation> <Allow/Deny>
+/f perm [Permission] [Relation] [Allow/Deny]
 
 Permission | Description | Relation
 --- | --- | ---

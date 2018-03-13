@@ -1,6 +1,6 @@
 Faction Gui for /f Perms.
 This tells you what each function does.
-Alternative;
+
 **Command:**
 /f perm <Permission> <Relation> <Allow/Deny>
 

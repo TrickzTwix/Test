@@ -10,4 +10,4 @@ What you do is this: In the formatting.yml file, there is a `Formats:` section. 
     `Faction:
       Message: '{rel_factions_relation_color}{factionsuuid_player_role}{factionsuuid_faction_name}&r '`
 
-Make sure you have PlaceholderAPI installed, and have done /papi ecloud download FactionsUUID. Otherwise, this will not work. After you have done that, do /restart and wait for your server to load. If all goes well - good job! If it doesn't - make sure no chat-formatting plugins are enabled, like EssentialsChat, DeluxeChat, HeroChat, etc.
+Make sure you have PlaceholderAPI installed, and have done /papi ecloud download FactionsUUID. Otherwise, this will not work. After you have done that, do /restart and wait for your server to load. If all goes well - good job! If it doesn't - make sure no other chat-formatting plugins are enabled, like EssentialsChat, DeluxeChat, HeroChat, etc.

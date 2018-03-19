@@ -10,7 +10,6 @@ What you do is this: In the formatting.yml file, there is a `Formats:` section. 
 `Formats:
 
   Chat:
-
     Faction:
       Message: '{rel_factions_relation_color}{factionsuuid_player_role}{factionsuuid_faction_name}&r '`
 

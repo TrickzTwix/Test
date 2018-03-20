@@ -8,13 +8,15 @@ Spots that you can use placeholders from other plugins in FactionsUUID text:
 These are placeholders you can use in other plugins (or the places listed above) that will hook into FactionsUUID.
 
 ### Relations
+The following can be used in plugins that support PlaceholderAPI relational placeholders.
 
-Player Placeholder | Description
+Relational Placeholder | Description
 --- | ---
 %factionsuuid_relation% | The relation between the 2 players
 %factionsuuid_relation_color% | Color of the relation between the 2 players
 
 ### Players
+The rest of the placeholders should be usable by any plugin supporting placeholders.
 
 Player Placeholder | Description
 --- | ---

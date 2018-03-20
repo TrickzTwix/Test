@@ -2,10 +2,17 @@ We hook into the plugin [PlaceholderAPI](https://www.spigotmc.org/resources/plac
 
 ## Internal Placeholders
 Spots that you can use placeholders from other plugins in FactionsUUID text:
-- [ ] f show
+- [x] f show
 
 ## External Placeholders
 These are placeholders you can use in other plugins that will hook into FactionsUUID.
+
+### Relations
+
+Player Placeholder | Description
+--- | ---
+%factionsuuid_relation% | The relation between the 2 players
+%factionsuuid_relation_color% | Color of the relation between the 2 players
 
 ### Players
 

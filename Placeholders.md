@@ -13,8 +13,8 @@ The following can be used in plugins that support PlaceholderAPI relational plac
 
 Relational Placeholder | Description
 --- | ---
-%factionsuuid_relation% | The relation between the 2 players
-%factionsuuid_relation_color% | Color of the relation between the 2 players
+%rel_factionsuuid_relation% | The relation between the 2 players
+%rel_factionsuuid_relation_color% | Color of the relation between the 2 players
 
 ### Players
 The rest of the placeholders should be usable by any plugin supporting placeholders.

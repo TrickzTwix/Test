@@ -5,7 +5,7 @@ Spots that you can use placeholders from other plugins in FactionsUUID text:
 - [x] f show
 
 ## External Placeholders
-These are placeholders you can use in other plugins that will hook into FactionsUUID.
+These are placeholders you can use in other plugins (or the places listed above) that will hook into FactionsUUID.
 
 ### Relations
 

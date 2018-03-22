@@ -1,13 +1,13 @@
 |Questions| Click-Here|
 ---|---|
 DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-massive-core)|
-FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-chat)
+FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-the-chat)
 HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#how-do-i-claim-warzone-and-safezone-areas)
 
 ### Does this need MassiveCore?
 No, it does not need MassiveCore
-### FACTIONS DON'T SHOW UP IN CHAT
-Alright, first off you need a chat plugin. We recommend EssentialsX (https://github.com/EssentialsX/Essentials) since it is free and is very active. Usually, FactionsUUID automatically adds your faction at the end of the chat for you, but using the variable [FACTION] should make it work. If that doesn't work, here are some other options.
+### Factions don't show up in the chat
+Alright, first off you need a chat plugin. We recommend pEssentialsX](https://github.com/EssentialsX/Essentials) since it is free and is very active. Usually, FactionsUUID automatically adds your faction at the end of the chat for you, but using the variable [FACTION] should make it work. If that doesn't work, here are some other options.
 
 Chat Control Pro is a premium resource and has tons of features besides warning people. It has chat formatting, listeners, handlers, etc. It is very active as well, but as I said, it is premium. You MUST enable chat formatting in the formatting.yml file it creates in order for this to work. If you have EssentialsChat (which isn't working if you choose this option) it might conflict with ChatControl, so beware if it doesn't work.
 What you do is this: In the formatting.yml file, there is a `Formats:` section. There, find `Chat:` and add this into the section:

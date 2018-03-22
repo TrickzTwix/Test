@@ -1,9 +1,9 @@
-# TABLE OF CONTENTS
-|Questions|Link|
----|---|
-DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-massive-core)|
-FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-the-chat)
-HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#how-do-i-claim-warzone-and-safezone-areas)
+## TABLE OF CONTENTS
+|Questions|
+---|
+[Does this need MassiveCore?](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-massive-core)|
+[Factions don't show up in the chat](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-the-chat)
+[How do I claim Warzone and Safezone areas?](https://github.com/drtshock/Factions/wiki/FAQ#how-do-i-claim-warzone-and-safezone-areas)
 
 ### Does this need MassiveCore?
 No, it does not need MassiveCore

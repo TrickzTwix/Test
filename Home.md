@@ -1,4 +1,4 @@
-## Welcome to the FactionsUUID wiki!
+## Welcome to the FactionsUUID Wiki!
 Here is a list of pages that could help you set up the configuration files, or just to find information!
 
 ## Help Guides

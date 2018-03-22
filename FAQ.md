@@ -1,7 +1,9 @@
 |Questions| Click-Here|
 ---|---|
-Does this Need McCore?| Answer
-Faction does not show up in chat, What can i do?| Answer
+Does this Need McCore?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#queston-does-this-need-mccore)|
+Faction does not show up in chat, What can i do?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-my-faction-does-not-show-up-in-chat-what-can-i-do)
+How do I Claim The Warzone and Safezone?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-how-do-i-claim-the-warzone-and-safezone)
+
 ### Queston: Does this need McCore?
 **Answer:** No, it does not need McCore
 ### Question: My Faction does not show up in chat, What can i do?

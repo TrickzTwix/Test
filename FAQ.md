@@ -11,3 +11,12 @@ What you do is this: In the formatting.yml file, there is a `Formats:` section. 
       Message: '{rel_factions_relation_color}{factionsuuid_player_role}{factionsuuid_faction_name}&r '`
 
 Make sure you have PlaceholderAPI installed, and have done /papi ecloud download FactionsUUID. Otherwise, this will not work. After you have done that, do /restart and wait for your server to load. If all goes well - good job! If it doesn't - make sure no other chat-formatting plugins are enabled, like EssentialsChat, DeluxeChat, HeroChat, etc.
+
+### HOW DO I (Un)CLAIM THE WARZONE AND SAFEZONE
+
+To claim land for the warzobe and safezone you need to execute the following command
+
+    `/f claim <radius measured in chunks such as 3 or 5> [Warzone/SafeZone]`
+
+
+    `

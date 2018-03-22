@@ -6,7 +6,7 @@ Here is a list of pages that could help you set up the configuration files, or j
 - [x] [/f perm](https://github.com/drtshock/Factions/wiki/f-perm)
 - [x] [Placeholders](https://github.com/drtshock/Factions/wiki/Placeholders)
 - [ ] Scoreboards
-- [ ] Lang file
+- [x] [Lang.yml file](https://github.com/drtshock/Factions/wiki/lang.yml-file)
 - [x] [Definitions](https://github.com/drtshock/Factions/wiki/Definitions)
 - [x] [Faction Warps](https://github.com/drtshock/Factions/wiki/Faction-Warps)
 - [x] [FAQ](https://github.com/drtshock/Factions/wiki/FAQ)

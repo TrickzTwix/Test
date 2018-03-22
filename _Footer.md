@@ -1,0 +1,1 @@
+If the wiki doesn't answer your question, feel free to join our [Discord server](https://discord.gg/FfAz3eE) for assistance!

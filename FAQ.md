@@ -1,3 +1,7 @@
+|Questions| Click-Here|
+---|---|
+Does this Need McCore?| Answer
+Faction does not show up in chat, What can i do?| Answer
 ### Queston: Does this need McCore?
 **Answer:** No, it does not need McCore
 ### Question: My Faction does not show up in chat, What can i do?
@@ -12,7 +16,7 @@ What you do is this: In the formatting.yml file, there is a `Formats:` section. 
 
 Make sure you have PlaceholderAPI installed, and have done /papi ecloud download FactionsUUID. Otherwise, this will not work. After you have done that, do /restart and wait for your server to load. If all goes well - good job! If it doesn't - make sure no other chat-formatting plugins are enabled, like EssentialsChat, DeluxeChat, HeroChat, etc.
 
-### HOW DO I CLAIM THE WARZONE AND SAFEZONE
+### Question: How do I Claim The Warzone and Safezone?
 
 **Answer:** To claim land for the warzone and safezone, you need to execute the following command:
 1. /f bypass

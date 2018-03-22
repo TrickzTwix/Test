@@ -1,7 +1,7 @@
 |Questions| Click-Here|
 ---|---|
-DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-mccore)|
-FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#my-faction-does-not-show-up-in-chat-what-can-i-do)
+DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-massive-core)|
+FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-chat)
 HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#how-do-i-claim-the-warzone-and-safezone)
 
 ### DOES THIS NEED MASSIVE CORE?

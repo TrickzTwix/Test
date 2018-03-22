@@ -19,4 +19,5 @@ Make sure you have PlaceholderAPI installed, and have done /papi ecloud download
 ### How do I claim Safezone and Warzone areas?
 To claim land for the Warzone and Safezone, you need to execute the following command:
 `/f claim <radius> [Warzone/SafeZone]`
+
 Provided they have the necessary permissions to do so.

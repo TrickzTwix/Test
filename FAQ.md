@@ -4,7 +4,7 @@ DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki
 FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-chat)
 HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#how-do-i-claim-warzone-and-safezone-areas)
 
-### DOES THIS NEED MASSIVE CORE?
+### Does this need MassiveCore?
 No, it does not need MassiveCore
 ### FACTIONS DON'T SHOW UP IN CHAT
 Alright, first off you need a chat plugin. We recommend EssentialsX (https://github.com/EssentialsX/Essentials) since it is free and is very active. Usually, FactionsUUID automatically adds your faction at the end of the chat for you, but using the variable [FACTION] should make it work. If that doesn't work, here are some other options.
@@ -16,11 +16,7 @@ What you do is this: In the formatting.yml file, there is a `Formats:` section. 
       Message: '{rel_factions_relation_color}{factionsuuid_player_role}{factionsuuid_faction_name}&r '`
 
 Make sure you have PlaceholderAPI installed, and have done /papi ecloud download FactionsUUID. Otherwise, this will not work. After you have done that, do /restart and wait for your server to load. If all goes well - good job! If it doesn't - make sure no other chat-formatting plugins are enabled, like EssentialsChat, DeluxeChat, HeroChat, etc.
-
-### HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?
-
+### How do I claim Safezone and Warzone areas?
 To claim land for the Warzone and Safezone, you need to execute the following command:
-1. /f bypass
-2. /f claim <radius> [Warzone/SafeZone]
-
+`/f claim <radius> [Warzone/SafeZone]`
 Provided they have the necessary permissions to do so.

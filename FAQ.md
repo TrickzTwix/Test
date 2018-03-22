@@ -7,7 +7,7 @@ HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock
 ### Does this need MassiveCore?
 No, it does not need MassiveCore
 ### Factions don't show up in the chat
-Alright, first off you need a chat plugin. We recommend pEssentialsX](https://github.com/EssentialsX/Essentials) since it is free and is very active. Usually, FactionsUUID automatically adds your faction at the end of the chat for you, but using the variable [FACTION] should make it work. If that doesn't work, here are some other options.
+Alright, first off you need a chat plugin. We recommend [EssentialsX](https://github.com/EssentialsX/Essentials) since it is free and is very active. Usually, FactionsUUID automatically adds your faction at the end of the chat for you, but using the variable [FACTION] should make it work. If that doesn't work, here are some other options.
 
 [ChatControl Pro](https://www.spigotmc.org/resources/♣-chatcontrol-pro-format-and-filter-your-chat-weekend-sale.10258/) is a premium resource and has tons of features besides warning people. It has chat formatting, listeners, handlers, etc. It is very active as well, but as I said, it is premium. You MUST enable chat formatting in the formatting.yml file it creates in order for this to work. If you have EssentialsChat (which isn't working if you choose this option) it might conflict with ChatControl, so beware if it doesn't work.
 What you do is this: In the formatting.yml file, there is a `Formats:` section. There, find `Chat:` and add this into the section:

@@ -1,8 +1,8 @@
 |Questions| Click-Here|
 ---|---|
-Does this Need McCore?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#queston-does-this-need-mccore)|
-Faction does not show up in chat, What can i do?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-my-faction-does-not-show-up-in-chat-what-can-i-do)
-How do I Claim The Warzone and Safezone?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-how-do-i-claim-the-warzone-and-safezone)
+DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#queston-does-this-need-mccore)|
+FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-my-faction-does-not-show-up-in-chat-what-can-i-do)
+HOW DO I CLAIM WARZONE AND SAFEZONE AREAS?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#question-how-do-i-claim-the-warzone-and-safezone)
 
 ### DOES THIS NEED MASSIVE CORE?
 No, it does not need MassiveCore

@@ -14,11 +14,8 @@ Make sure you have PlaceholderAPI installed, and have done /papi ecloud download
 
 ### HOW DO I CLAIM THE WARZONE AND SAFEZONE
 
-To claim land for the warzone and safezone you need to execute the following command
+To claim land for the warzone and safezone, you need to execute the following command:
 
-    `/f claim <radius measured in chunks such as 3 or 5> [Warzone/SafeZone]`
+    `/f claim <radius> [Warzone/SafeZone]`
 
-Provided they have the necessary perms to do so
-
-
-    `
+Provided they have the necessary permissions to do so.

@@ -1,5 +1,5 @@
-Faction Gui for /f Perms.
-This tells you what each function does.
+Faction GUI for /f perms.
+This page tells you what each function does.
 
 **Command:**
 /f perm [Permission] [Relation] [Allow/Deny]

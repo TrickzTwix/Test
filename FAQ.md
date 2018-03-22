@@ -1,4 +1,5 @@
-|Questions| Click-Here|
+# TABLE OF CONTENTS
+|Questions|Link|
 ---|---|
 DOES THIS NEED MASSIVE CORE?| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#does-this-need-massive-core)|
 FACTIONS DON'T SHOW UP IN CHAT| [Answer](https://github.com/drtshock/Factions/wiki/FAQ#factions-dont-show-up-in-the-chat)

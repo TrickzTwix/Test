@@ -1,10 +1,10 @@
 Please add on to this.
 
 If you want a hip, up-to-date, & color-coded version of the lang.yml file, here it is:
-
-`# Lang file for FactionsUUID by drtshock & Wizzle
-# Use & for color codes.
-# Made with love <3
+`hey`
+`#Lang file for FactionsUUID by drtshock & Wizzle
+#Use & for color codes.
+#Made with love <3
 
 
 root:

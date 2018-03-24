@@ -1,4 +1,3 @@
-Please add on to this.
-
-If you want a hip, up-to-date, & color-coded version of the lang.yml file, here it is:
-https://hasteb.in/lanenuwe.vbs
+# Configuring the land.yml file
+There is a full, & color-coded version of the lang.yml [here](https://hasteb.in/lanenuwe.vbs).
+The base colors are gray(&7) and red (&c), giving it a cool, PVP-like feeling about it. To change these color codes, doing `CMD/CNTRL + F` and typing in `&c/&7` should show you all the positions in the file. We suggest you use Sublime when editing documents, as it has a neat tool called **Find All** which you can then replace with the color codes you desire.

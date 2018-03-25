@@ -4,7 +4,9 @@ In the config.yml, go to the `scoreboard` section. In there, there will be two p
   finfo-enabled: false
 ```
 The other variable is the default scoreboard. This will constantly show. To enable it, change `default-enabled:` to `true`
-
+```yaml
+  default-enabled: false
+```
 ## Configuring the scoreboards
 To set the expiration for the scoreboards, change it to whatever number you want. 0 to disable expiration.
 

@@ -27,7 +27,19 @@ To change what f-info says, change each line in the quotation marks to what you 
     - "{chunks}"
 ```
 
-To show faction relations and faction names in the tablist, enable `default-prefixes`. The scoreboard must be enabled for it to work. To change the title of the scoreboard, add your title to `default-title`. The variable below it, `factionless-enabled`, only shows if you do not have a faction and when it's enabled. Configure this to what you want to show them.
+To show faction relations and faction names in the tablist, set `default-prefixes` to `true`. The scoreboard must be enabled for it to work.
+
+To change the title of the default scoreboard, change this to whatever you want besides placeholders. Accepts color codes.
+```yaml
+default-title: "i love drt"
+```
+The variable below it, `factionless`, only shows if you do not have a faction and when you set `factionless-enabled` to `true`. Configure this to what you want to show them.
+```yaml
+  factionless-enabled: false
+  factionless:
+    - "Make a new Faction"
+    - "Use /f create"
+```
 
 Both of these sections support internal and third-party ([PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [MVdW](https://www.spigotmc.org/resources/mvdwplaceholderapi.11182/)) placeholders.
 

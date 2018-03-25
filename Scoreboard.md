@@ -7,13 +7,17 @@ The other variable is the default scoreboard. This will constantly show. To enab
 To set the expiration for the scoreboards, change it to whatever number you want. 0 to disable expiration.
 
 `scoreboard:
+
   also-send-chat: true
+
   expiration: 7`
 
 To change what f-info says, change each line in the quotation marks to what you want:
 
 `  finfo:
+
     - "&6Power"
+
     - "{power}"
     - "&3Members"
     - "{online}/{members}"

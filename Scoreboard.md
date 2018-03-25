@@ -41,6 +41,6 @@ The variable below it, `factionless`, only shows if you do not have a faction an
     - "Use /f create"
 ```
 
-Both of these sections support internal and third-party ([PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [MVdW](https://www.spigotmc.org/resources/mvdwplaceholderapi.11182/)) placeholders.
+Scoreboards support internal and third-party ([PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [MVdW](https://www.spigotmc.org/resources/mvdwplaceholderapi.11182/)) placeholders.
 
 **NOTE:** it may take time to update, so restart it once you're done configuring it and wait patiently.

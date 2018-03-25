@@ -39,6 +39,7 @@ To show faction relations and faction names in the tablist, set `default-prefixe
 ```yaml
 default-prefixes: false
 default-title: "i love drt"
+default-update-interval: 1
   default:
     - "&cFaction"
     - "&7{faction}"

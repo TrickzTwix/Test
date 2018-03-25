@@ -1,6 +1,8 @@
 ## Enabling the scoreboard
 In the config.yml, go to the `scoreboard` section. In there, there will be two parts: f-info and the default scoreboard. The f-info variable is when you walk into a faction's territory, it will show you information about that faction. To enable it, set `finfo-enabled:` to `true`.
-
+```yaml
+  finfo-enabled: false
+```
 The other variable is the default scoreboard. This will constantly show. To enable it, change `default-enabled:` to `true`
 
 ## Configuring the scoreboards

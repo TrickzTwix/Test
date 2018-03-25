@@ -11,6 +11,7 @@ To set the expiration for the scoreboards, change it to whatever number you want
   expiration: 7`
 
 To change what f-info says, change each line in the quotation marks to what you want:
+
 `  finfo:
     - "&6Power"
     - "{power}"

@@ -10,6 +10,6 @@ The f-info scoreboard has an option to expire after a certain amount of time. Yo
 
 The defauilt scoreboard has an option to enable `default-prefixes`, which in turn changes the tablist showing your faction and relation to that faction. The scoreboard must be enabled for it to work. You can also change the title of the scoreboard in the variable `default-title`. The variable below it, `factionless-enabled` only shows if you do not have a faction.
 
-Both of these sections support internal and third-party (([PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [MVdW](https://www.spigotmc.org/resources/mvdwplaceholderapi.11182/)) placeholders.
+Both of these sections support internal and third-party ([PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [MVdW](https://www.spigotmc.org/resources/mvdwplaceholderapi.11182/)) placeholders.
 
 **NOTE:** it may take time to update, so restart it once you're done configuring it and wait patiently.

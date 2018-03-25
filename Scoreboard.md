@@ -5,6 +5,7 @@ The other variable is the default scoreboard. This will constantly show. To enab
 
 ## Configuring the scoreboards
 To set the expiration for the scoreboards, change it to whatever number you want. 0 to disable expiration.
+
 `scoreboard:
   also-send-chat: true
   expiration: 7`

@@ -31,11 +31,17 @@ To change what f-info says, change each line in the quotation marks to what you 
     - "{chunks}"
 ```
 
-To show faction relations and faction names in the tablist, set `default-prefixes` to `true`. The scoreboard must be enabled for it to work.
-
-To change the title of the default scoreboard, change this to whatever you want besides placeholders. Accepts color codes.
+To show faction relations and faction names in the tablist, set `default-prefixes:` to `true`. The scoreboard must be enabled for it to work. To change the title and format of the default scoreboard, change this to whatever you want besides placeholders. Accepts color codes.
 ```yaml
+default-prefixes: false
 default-title: "i love drt"
+  default:
+    - "&cFaction"
+    - "&7{faction}"
+    - "&3Your Power"
+    - "{power}"
+    - "&aBalance"
+    - "${balance}"
 ```
 The variable below it, `factionless`, only shows if you do not have a faction and when you set `factionless-enabled` to `true`. Configure this to what you want to show them.
 ```yaml

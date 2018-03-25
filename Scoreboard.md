@@ -15,17 +15,17 @@ To set the expiration for the scoreboards, change it to whatever number you want
 
 To change what f-info says, change each line in the quotation marks to what you want:
 
-`  finfo:
-
+```yaml
+  finfo:
     - "&6Power"
-
     - "{power}"
     - "&3Members"
     - "{online}/{members}"
     - "&4Leader"
     - "{leader}"
     - "&bTerritory"
-    - "{chunks}"`
+    - "{chunks}"
+```
 
 To show faction relations and faction names in the tablist, enable `default-prefixes`. The scoreboard must be enabled for it to work. To change the title of the scoreboard, add your title to `default-title`. The variable below it, `factionless-enabled`, only shows if you do not have a faction and when it's enabled. Configure this to what you want to show them.
 

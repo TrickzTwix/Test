@@ -1,12 +1,16 @@
 ## Enabling the scoreboard
 In the config.yml, go to the `scoreboard` section. In there, there will be two parts: f-info and the default scoreboard. The f-info variable is when you walk into a faction's territory, it will show you information about that faction. To enable it, set `finfo-enabled:` to `true`.
+
 ```yaml
   finfo-enabled: false
 ```
-The other variable is the default scoreboard. This will constantly show. To enable it, change `default-enabled:` to `true`
+
+The other variable is the default scoreboard. This will constantly show. To enable it, change `default-enabled:` to `true`.
+
 ```yaml
   default-enabled: false
 ```
+
 ## Configuring the scoreboards
 To set the expiration for the scoreboards, change it to whatever number you want. 0 to disable expiration.
 
@@ -16,8 +20,7 @@ To set the expiration for the scoreboards, change it to whatever number you want
   expiration: 7
 ```
 
-
-To change what f-info says, change each line in the quotation marks to what you want:
+To change what f-info says, change each line in the quotation marks to what you want. Accepts color codes.
 
 ```yaml
   finfo:
@@ -31,7 +34,8 @@ To change what f-info says, change each line in the quotation marks to what you 
     - "{chunks}"
 ```
 
-To show faction relations and faction names in the tablist, set `default-prefixes:` to `true`. The scoreboard must be enabled for it to work. To change the title and format of the default scoreboard, change this to whatever you want besides placeholders. Accepts color codes.
+To show faction relations and faction names in the tablist, set `default-prefixes:` to `true`. The scoreboard must be enabled for it to work. To change the title and format of the default scoreboard, change what's inside the quotation marks to whatever you want in it. Placeholders do not work in the title. Accepts color codes.
+
 ```yaml
 default-prefixes: false
 default-title: "i love drt"
@@ -43,7 +47,9 @@ default-title: "i love drt"
     - "&aBalance"
     - "${balance}"
 ```
-The variable below it, `factionless`, only shows if you do not have a faction and when you set `factionless-enabled` to `true`. Configure this to what you want to show them.
+
+The variable below it, `factionless`, only shows if you do not have a faction and when you set `factionless-enabled` to `true`. Configure this to what you want to show them. Accepts color codes.
+
 ```yaml
   factionless-enabled: false
   factionless:

@@ -12,7 +12,7 @@ The other variable is the default scoreboard. To enable it, change `default-enab
 ```
 
 ## Configuring the scoreboards
-To set the expiration for the f-info scoreboard, change it to whatever number you want. 0 to disable expiration.
+To set the expiration for the f-info scoreboard, change it to whatever number you want.
 
 ```yaml
  scoreboard:
